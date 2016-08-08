@@ -613,7 +613,7 @@ a:focus {
     transition-delay:         0.75s;
 }
 
-#hobby {
+/*#hobby {
     width: 600px;
 }
 
@@ -629,7 +629,7 @@ a:focus {
     -ms-transition-delay:     0.75s;
     -o-transition-delay:      0.75s;
     transition-delay:         0.75s;
-}
+}*/
 
 #whereiam {
     width: 600px;
