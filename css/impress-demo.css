@@ -813,6 +813,7 @@ a:focus {
 
 #back {
     width: 700px;
+    height: 700px;
     padding-bottom: 400px;
 
     background-image: url(http://obbby1brf.bkt.clouddn.com/me_avatar.jpg);
