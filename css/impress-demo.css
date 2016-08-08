@@ -527,6 +527,299 @@ a:focus {
     cursor: pointer;
 }
 
+/*
+    自定义的样式
+*/
+#welcome {
+    width: 600px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+}
+
+#welcome .title {
+    font-size: 90px;
+    line-height: 150px;
+}
+
+#welcome .footnote {
+    font-size: 20px;
+}
+
+#tiny {
+    width: 500px;
+    text-align: center;
+}
+
+#me { width: 600px }
+
+#me b {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#me.present .now_me {
+    font-size: 90px;
+    -webkit-transform: translateY(-10px);
+    -moz-transform:    translateY(-10px);
+    -ms-transform:     translateY(-10px);
+    -o-transform:      translateY(-10px);
+    transform:         translateY(-10px);
+}
+
+#me.present .unity {
+    -webkit-transform: translateY(10px);
+    -moz-transform:    translateY(10px);
+    -ms-transform:     translateY(10px);
+    -o-transform:      translateY(10px);
+    transform:         translateY(10px);
+
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay:    0.25s;
+    -ms-transition-delay:     0.25s;
+    -o-transition-delay:      0.25s;
+    transition-delay:         0.25s;
+}
+
+#me.present .ios {
+    -webkit-transform: translateY(10px);
+    -moz-transform:    translateY(10px);
+    -ms-transform:     translateY(10px);
+    -o-transform:      translateY(10px);
+    transform:         translateY(10px);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
+
+#me.present .photo {
+    -webkit-transform: translateY(10px);
+    -moz-transform:    translateY(10px);
+    -ms-transform:     translateY(10px);
+    -o-transform:      translateY(10px);
+    transform:         translateY(10px);
+
+    -webkit-transition-delay: 0.75s;
+    -moz-transition-delay:    0.75s;
+    -ms-transition-delay:     0.75s;
+    -o-transition-delay:      0.75s;
+    transition-delay:         0.75s;
+}
+
+#hobby {
+    width: 600px;
+}
+
+#hobby.present .photo {
+    -webkit-transform: translateY(10px);
+    -moz-transform:    translateY(10px);
+    -ms-transform:     translateY(10px);
+    -o-transform:      translateY(10px);
+    transform:         translateY(10px);
+
+    -webkit-transition-delay: 0.75s;
+    -moz-transition-delay:    0.75s;
+    -ms-transition-delay:     0.75s;
+    -o-transition-delay:      0.75s;
+    transition-delay:         0.75s;
+}
+
+#whereiam {
+    width: 600px;
+}
+
+#whereiam .born {
+    text-align: right;
+    font-size: 30px;
+}
+
+#whereiam .study {
+    text-align: right;
+    font-size: 30px;
+}
+
+#whereiam .kunming {
+    color: green;
+}
+
+#whereiam .tsinghua {
+    color: purple;
+}
+
+#japan {
+    width: 650px;
+}
+
+#japan b {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#japan.present .trans {
+    -webkit-transform: translateX(100px);
+    -moz-transform:    translateX(100px);
+    -ms-transform:     translateX(100px);
+    -o-transform:      translateX(100px);
+    transform:         translateX(100px);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
+
+#japan .footnote {
+    font-size: 15px;
+}
+
+#meet {
+    text-align: center;
+}
+
+#comein {
+    width: 1000px;
+    text-align: center;
+}
+
+#mywords {
+    width: 1000px;
+    text-align: center;
+}
+
+#grow {
+    text-align: center;
+}
+
+#knowme {
+    font-size: 45px;
+}
+
+#imagination {
+    width: 600px;
+}
+
+#imagination .imagination {
+    font-size: 78px;
+}
+
+#findme {
+    width: 900px;
+    padding-bottom: 120px;
+
+    background-image: url(http://www.gravatar.com/avatar/318643095c83b914cf80a7f99f247fe6?s=160);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+#prizeme p {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style:     preserve-3d;
+    -o-transform-style:      preserve-3d;
+    transform-style:         preserve-3d;
+}
+
+#prizeme span,
+#prizeme b {
+    display: inline-block;
+    -webkit-transform: translateZ(40px);
+    -moz-transform:    translateZ(40px);
+    -ms-transform:     translateZ(40px);
+    -o-transform:      translateZ(40px);
+     transform:        translateZ(40px);
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#prizeme .horse {
+    -webkit-transform: translateZ(-40px);
+    -moz-transform:    translateZ(-40px);
+    -ms-transform:     translateZ(-40px);
+    -o-transform:      translateZ(-40px);
+    transform:         translateZ(-40px);
+}
+
+#prizeme .moutain {
+    -webkit-transform: translateZ(20px);
+    -moz-transform:    translateZ(20px);
+    -ms-transform:     translateZ(20px);
+    -o-transform:      translateZ(20px);
+    transform:         translateZ(20px);
+}
+
+#prizeme .hope {
+    -webkit-transform: translateZ(-40px);
+    -moz-transform:    translateZ(-40px);
+    -ms-transform:     translateZ(-40px);
+    -o-transform:      translateZ(-40px);
+    transform:         translateZ(-40px);
+}
+
+#prizeme .youare {
+    -webkit-transform: translateZ(60px);
+    -moz-transform:    translateZ(60px);
+    -ms-transform:     translateZ(60px);
+    -o-transform:      translateZ(60px);
+    transform:         translateZ(60px);
+}
+
+#prizeme .my {
+    -webkit-transform: translateZ(-10px);
+    -moz-transform:    translateZ(-10px);
+    -ms-transform:     translateZ(-10px);
+    -o-transform:      translateZ(-10px);
+    transform:         translateZ(-10px);
+}
+
+#prizeme.present span,
+#prizeme.present b {
+    -webkit-transform: translateZ(0px);
+    -moz-transform:    translateZ(0px);
+    -ms-transform:     translateZ(0px);
+    -o-transform:      translateZ(0px);
+    transform:         translateZ(0px);
+}
+
+
+#subcribe .adv {
+    font-size: 20px;
+}
+
+#motto {
+    text-align: center;
+}
+
+#motto b{
+    font-size: 70px;
+    color: darkred;
+    font-weight: bold
+}
+
+#back {
+    width: 700px;
+    padding-bottom: 400px;
+
+    background-image: url(http://i758.photobucket.com/albums/xx224/onevcat/ou-gi.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+/*-------------以上是自定义的样式--------------*/
 
 /*
     Now, when we have all the steps styled let's give users a hint how to navigate
